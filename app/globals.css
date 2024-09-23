@@ -24,6 +24,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .bg-color{
+    background-color: #1B3B2A;
+  }
+
 }
 
 @layer base {
