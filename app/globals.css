@@ -27,7 +27,15 @@ body {
   .bg-color{
     background-color: #1B3B2A;
   }
-
+  .heading-color{
+    color: #B0BEC5;
+  }
+  .subheading-color{
+    color:#B0BEC5;
+  }
+  .text-body-color{
+    background-color: #F4EBD9;
+  }
 }
 
 @layer base {

@@ -1,0 +1,11 @@
+'use client'
+import { useState,useEffect } from "react"
+import Link from "next/link"
+import { usePathname } from "next/navigation"
+import CustomButton from "./ui/CustomButton"
+import {Menu,Coins,Leaf,Search,Bell,User,LogIn,LogOut,ChevronDown} from "lucide-react"
+import { DropdownMenu,DropdownMenuContent,DropdownMenuItem,DropdownMenuTrigger } from "./ui/dropdown-menu"
+import { Badge } from "./ui/badge"
+import {Web3Auth} from "@web3auth/modal"
+import { CHAIN_NAMESPACES,IProvider,WEB3AUTH_NETWORK } from "@web3auth/base"
+import {EthereumPrivateKeyProvider} from "@web3auth/ethereum-provider"

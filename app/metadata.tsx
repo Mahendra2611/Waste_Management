@@ -1,4 +1,4 @@
 export const metadata: Metadata = {
-    title: "Clean City",
+    title: "Waste Tracker",
     description: "AI powered waste management",
   };
